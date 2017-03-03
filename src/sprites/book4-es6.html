@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Sprite Demonstration
+  </title>
+<link href="css/book4.css" rel="stylesheet">
+  <script type="text/javascript">
+    // IE6 background image caching fix.
+    // Include this JavaScript a the top of your page.
+    try {
+      document.execCommand("BackgroundImageCache", false, true);
+    } catch (e) {}
+  </script>
+
+</head>
+
+<body>
+  <p>DHTML Demonstration. Lots of spites moved and animated with time-adjustment. The speed of movement is adjusted so it looks like a consistent 40 frames per second update across different browsers and hardware. The actual frames per second achieved is
+    shown below.</p>
+  <p>
+    <a href='/book'>
+      <<< Back</a>
+  </p>
+  <div id="draw-target">
+  </div>
+  <p id="info1"></p>
+  <p id="info2"></p>
+  <p id="info3"></p>
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="js/book4.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+@charset "UTF-8";
+.draw-target {
+  width: 320px;
+  height: 256px;
+  position: relative;
+  float: left;
+  margin: 5px;
+}
